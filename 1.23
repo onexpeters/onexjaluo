@@ -1,0 +1,25 @@
+Collecting keras-adamw
+  Using cached keras_adamw-1.38-py3-none-any.whl (29 kB)
+Requirement already satisfied: numpy in ./.local/lib/python3.9/site-packages (from keras-adamw) (1.24.1)
+  Using cached keras_adamw-1.37-py3-none-any.whl (29 kB)
+  Using cached keras_adamw-1.36-py3-none-any.whl (29 kB)
+  Using cached keras_adamw-1.35-py3-none-any.whl (29 kB)
+  Using cached keras_adamw-1.32-py3-none-any.whl (28 kB)
+  Using cached keras_adamw-1.31-py3-none-any.whl (28 kB)
+  Using cached keras_adamw-1.30-py3-none-any.whl (28 kB)
+  Using cached keras_adamw-1.23-py3-none-any.whl (50 kB)
+
+The conflict is caused by:
+    keras-adamw 1.38 depends on tensorflow
+    keras-adamw 1.37 depends on tensorflow
+    keras-adamw 1.36 depends on tensorflow
+    keras-adamw 1.35 depends on tensorflow
+    keras-adamw 1.32 depends on tensorflow
+    keras-adamw 1.31 depends on tensorflow
+    keras-adamw 1.30 depends on tensorflow
+    keras-adamw 1.23 depends on tensorflow
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
